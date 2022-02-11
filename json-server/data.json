@@ -1,0 +1,60 @@
+{
+    "peliculas": [
+        {
+            "id": 1,
+            "title": "No Way Home",
+            "img": "https://filmdaily.co/wp-content/uploads/2021/12/spider_08-6.jpg",
+            "director": "Jon Watts",
+            "date": "15/12/2021"
+        },
+        {
+            "id": 2,
+            "title": "Dune",
+            "img": "https://cnnespanol.cnn.com/wp-content/uploads/2020/09/200909200839-dune-full-169.jpeg?quality=100&strip=info",
+            "director": "Denis Villeneuve",
+            "date": "21/09/2021"
+        },
+        {
+            "id": 3,
+            "title": "Moonfall",
+            "img": "https://www.filmfetish.com/img/p/2021/09/moonfall-teaser-poster-title.jpg",
+            "director": "Roland Emmerich",
+            "date": "04/02/2022"
+        },
+        {
+            "id": 4,
+            "title": "Encanto",
+            "img": "https://img2.rtve.es/imagenes/dias-cine-encanto/1637942000645.jpg",
+            "director": "Byron Howard",
+            "date": "25/11/2021"
+        },
+        {
+            "id": 5,
+            "title": "El padrino",
+            "img": "https://drugstoremag.es/wp-content/uploads/2015/11/el-padrino-I.jpg",
+            "director": "Ford Coppola",
+            "date": "15/12/2021"
+        },
+        {
+            "id": 6,
+            "title": "El Rey Leon",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/lion_king_the_2019_la_ih_las_1600_x_900_f6dfa267.jpeg?region=0%2C0%2C1600%2C900",
+            "director": "Rob Minkoff",
+            "date": "24/06/1994"
+        },
+        {
+            "id": 7,
+            "title": "La vida es bella",
+            "img": "https://img2.rtve.es/v/3629872?w=1600&preview=1465541660717.jpg",
+            "director": "Roberto Benigni",
+            "date": "05/03/1999"
+        },
+        {
+            "id": 8,
+            "title": "Rapidos y Furiosos",
+            "img": "https://i.pinimg.com/originals/d6/c6/96/d6c6962f6e7313cbc7fb40916d9561b8.jpg",
+            "director": "Justin Lin",
+            "date": "03/04/2009"
+        }
+    ]
+}

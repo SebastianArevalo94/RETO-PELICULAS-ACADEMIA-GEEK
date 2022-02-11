@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #040F16;
+}
+
+#list {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DF2935;
+    list-style: none;
+    color: #E6E8E6;
+}
+
+#list li {
+    margin: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#list li a {
+    text-decoration: none;
+    color: #E6E8E6;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDCA40;
+    border-radius: 12px;
+}
+
+#form__item {
+    margin: 15px;
+}

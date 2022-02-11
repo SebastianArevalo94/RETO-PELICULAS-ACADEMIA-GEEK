@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #040F16;
+}
+
+#list {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #DF2935;
+    list-style: none;
+    color: #E6E8E6;
+}
+
+#list li {
+    margin: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#list li a {
+    text-decoration: none;
+    color: #E6E8E6;
+}
+
+
+#card__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+#card {
+    background-color: #E6E8E6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+#card__img {
+    border-radius: 8px;
+}
+
+#card__h3 {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}

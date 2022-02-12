@@ -1,6 +1,6 @@
 const getAPI__id = async(id) => {
     try {
-        const resp = await fetch(`http://localhost:3000/peliculas/${id}`);
+        const resp = await fetch(`https://api-reto2-peliculas.herokuapp.com/peliculas/${id}`);
         const data = await resp.json();
         return data
     } catch (error) {

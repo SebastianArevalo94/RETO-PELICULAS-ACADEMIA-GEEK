@@ -9,19 +9,8 @@ const getAPI = async() => {
 }
 
 const script = async (id) => {
-    let data = await getAPI__id(id);
     localStorage.setItem('id',id);
     window.location.replace("../data.html");
-}
-
-const getAPI__id = async(id) => {
-    try {
-        const resp = await fetch(`https://api-reto2-peliculas.herokuapp.com/peliculas/${id}`); 
-        const data = await resp.json();
-        return data
-    } catch (error) {
-        return error 
-    }
 }
 
 const x = async () => {
